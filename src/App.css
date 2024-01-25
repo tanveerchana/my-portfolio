@@ -213,5 +213,5 @@ body {
   padding: 0;
   width: 100%;
   height: 100vh;
-  z-index: -1; /* Make sure this is set to -1 or a lower value than your content */
+  z-index: -1;
 }
