@@ -2,28 +2,36 @@ import '../app.css';
 export default function Footer() {
     return (
         <div className="footer">
-            <h2 className="ftr-heading">Contact</h2>
+            {/* <h2 className="ftr-heading">Contact</h2> */}
             <div className='ftr-container'>
-
                 <div className="ftr-container-1">
-                    {/* <Form/> */}
+                    <h3>Let's build something great together?</h3>
+                    <button>Contact Me</button>
                 </div>
                 <div className="ftr-container-2">
-                    <ul className="ftr-list">
-                        <li>
-                            <a className="ftr-links" href="https://github.com/tanveerchana">Github</a>
-                        </li>
-                        <li >
-                            <a className="ftr-links" href="mailto:tanveer0736@gmail.com">Email</a>
-                        </li>
-                        <li>
-                            <a className="ftr-links" href="#">Resume</a>
-                        </li>
-                        <li>
-                            <a className="ftr-links" href="https://www.linkedin.com/in/tanveer-singh007/">LinkedIn</a>
-                        </li>
-                    </ul>
+                    <div className='container-2-heading'>
+                        <h3>Connect with me on social media</h3>
+                    </div>
+                    <div>
+                        <ul className="ftr-list">
+                            <li>
+                                <a className="ftr-links" href="https://github.com/tanveerchana">Github</a>
+                            </li>
+                            <li >
+                                <a className="ftr-links" href="mailto:tanveer0736@gmail.com">Email</a>
+                            </li>
+                            <li>
+                                <a className="ftr-links" href="#">Resume</a>
+                            </li>
+                            <li>
+                                <a className="ftr-links" href="https://www.linkedin.com/in/tanveer-singh007/">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
+            <div className='footer-copyright'>
+                <p>Copyright &#9400; 2024 Tanveer Singh. All rights reserved.</p>
             </div>
         </div>
     );

@@ -2,6 +2,9 @@ import './App.css';
 import Navbar from './components/navbar';
 import Home from './components/home';
 import Work from './components/work';
+import About from './components/about';
+import AboutWork from './components/aboutwork';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -9,6 +12,9 @@ function App() {
       <Navbar />
       <Home />
       <Work/>
+      <About/>
+      <AboutWork/>
+      <Footer/>
     
     </div>
   );
