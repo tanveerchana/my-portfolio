@@ -140,128 +140,6 @@ body {
   font-weight: 200;
 }
 
-@media screen and (max-width: 2560px) {
-  .home-inner h1 {
-    font-size: 120px;
-  }
-
-  .home-inner p {
-    font-size: 45px;
-  }
-}
-
-@media screen and (max-width: 1960px) {
-  .home-heading {
-    padding: 0px 350px 0px 350px;
-  }
-
-  .home-inner h1 {
-    font-size: 95px;
-  }
-
-  .home-inner p {
-    font-size: 38px;
-  }
-}
-
-@media screen and (max-width: 1635px) {
-  .home-heading {
-    padding: 0px 300px 0px 300px;
-  }
-
-  .home-inner h1 {
-    font-size: 85px;
-  }
-
-  .home-inner p {
-    font-size: 33px;
-  }
-}
-
-@media screen and (max-width: 1430px) {
-  .home-heading {
-    padding: 0px 220px 0px 220px;
-  }
-
-  .home-inner h1 {
-    font-size: 60px;
-  }
-
-  .home-inner p {
-    font-size: 26px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .home-heading {
-    padding: 0px 140px 0px 140px;
-  }
-
-  .home-inner h1 {
-    font-size: 49px;
-  }
-
-  .home-inner p {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .home-heading {
-    padding: 0px 90px 0px 90px;
-  }
-
-  .home-inner h1 {
-    font-size: 44px;
-  }
-
-  .home-inner p {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .home-heading {
-    padding: 0px 45px 0px 45px;
-  }
-
-  .home-inner h1 {
-    font-size: 42px;
-  }
-
-  .home-inner p {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .home-heading {
-    padding: 0px 30px 0px 30px;
-  }
-
-  .home-inner h1 {
-    font-size: 42px;
-  }
-
-  .home-inner p {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .home-heading {
-    padding: 0px 25px 0px 25px;
-  }
-
-  .home-inner h1 {
-    font-size: 40px;
-  }
-
-  .home-inner p {
-    font-size: 17px;
-  }
-}
-
 /* work section*/
 
 .work-section {
@@ -273,11 +151,11 @@ body {
   height: 85vh;
   background-color: aliceblue;
   border-radius: 20px;
-
+  margin-bottom: 60px;
 }
 
 .work-title {
-  padding: 225px 0 225px 0;
+  padding: 200px 0 200px 0;
   text-align: center;
 }
 
@@ -301,95 +179,16 @@ body {
   border: 2px solid #061423;
 }
 
-@media screen and (max-width: 1960px) {
-  .work-section {
-    padding: 0px 350px 0px 350px;
-  }
-
-  .work-title h1 {
-    font-size: 95px;
-  }
-}
-
-@media screen and (max-width: 1635px) {
-  .work-section {
-    padding: 0px 300px 0px 300px;
-  }
-
-  .work-title h1 {
-    font-size: 62px;
-  }
-}
-
-@media screen and (max-width: 1430px) {
-  .work-section {
-    padding: 0px 220px 0px 220px;
-  }
-
-  .work-title h1 {
-    font-size: 60px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .work-section {
-    padding: 0px 140px 0px 140px;
-  }
-
-  .work-title h1 {
-    font-size: 49px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .work-section {
-    padding: 0px 90px 0px 90px;
-  }
-
-  .work-title h1 {
-    font-size: 44px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .work-section {
-    padding: 0px 45px 0px 45px;
-  }
-
-  .work-title h1 {
-    font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .work-section {
-    padding: 0px 30px 0px 30px;
-  }
-
-  .work-title h1 {
-    font-size: 38px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .work-section {
-    padding: 0px 25px 0px 25px;
-  }
-
-  .work-title h1 {
-    font-size: 35px;
-  }
-}
 
 /*About*/
 .about-section {
-  padding: 8px 250px 8px 250px;
+  padding: 8px 400px 8px 400px;
 }
 
-.about-hdg {
+.about-heading {
   display: flex;
   text-align: left;
-  font-size: 65px;
+  font-size: 80px;
   color: aliceblue;
   font-weight: 500;
   line-height: 1.1;
@@ -515,4 +314,251 @@ body {
   text-align: center;
   font-size: 15px;
   color: aliceblue;
+}
+
+
+/*Responsive media queries*/
+
+@media screen and (max-width: 2560px) {
+  .home-inner h1 {
+    font-size: 120px;
+  }
+
+  .home-inner p {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1960px) {
+  .home-heading {
+    padding: 0px 350px 0px 350px;
+  }
+
+  .home-inner h1 {
+    font-size: 95px;
+  }
+
+  .home-inner p {
+    font-size: 38px;
+  }
+
+  /*work*/
+  .work-section {
+    padding: 0px 350px 0px 350px;
+  }
+
+  .work-title h1 {
+    font-size: 95px;
+  }
+  /*about*/
+  .about-section {
+    padding: 0px 350px 0px 350px;
+  }
+  .about-heading{
+    font-size: 95px;
+  }
+}
+
+@media screen and (max-width: 1635px) {
+  .home-heading {
+    padding: 0px 300px 0px 300px;
+  }
+
+  .home-inner h1 {
+    font-size: 85px;
+  }
+
+  .home-inner p {
+    font-size: 33px;
+  }
+  /* work*/
+  .work-section {
+    padding: 0px 300px 0px 300px;
+  }
+
+  .work-title h1 {
+    font-size: 62px;
+  }
+  /*about*/
+  .about-section {
+    padding: 0px 300px 0px 300px;
+  }
+  .about-heading{
+    font-size: 62px;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .home-heading {
+    padding: 0px 220px 0px 220px;
+  }
+
+  .home-inner h1 {
+    font-size: 60px;
+  }
+
+  .home-inner p {
+    font-size: 26px;
+  }
+  /*work*/
+  .work-section {
+    padding: 0px 220px 0px 220px;
+  }
+
+  .work-title h1 {
+    font-size: 60px;
+  }
+  /*about*/
+  .about-section {
+    padding: 0px 220px 0px 220px;
+  }
+  .about-heading{
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-heading {
+    padding: 0px 140px 0px 140px;
+  }
+
+  .home-inner h1 {
+    font-size: 49px;
+  }
+
+  .home-inner p {
+    font-size: 20px;
+  }
+  /*work*/
+  .work-section {
+    padding: 0px 140px 0px 140px;
+  }
+
+  .work-title h1 {
+    font-size: 49px;
+  }
+  /*about*/
+  .about-section {
+    padding: 0px 140px 0px 140px;
+  }
+  .about-heading{
+    font-size: 49px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-heading {
+    padding: 0px 90px 0px 90px;
+  }
+
+  .home-inner h1 {
+    font-size: 44px;
+  }
+
+  .home-inner p {
+    font-size: 18px;
+  }
+  /*work*/
+  .work-section {
+    padding: 0px 90px 0px 90px;
+  }
+
+  .work-title h1 {
+    font-size: 44px;
+  }
+  /*about*/
+  .about-section {
+    padding: 0px 90px 0px 90px;
+  }
+  .about-heading{
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .home-heading {
+    padding: 0px 45px 0px 45px;
+  }
+
+  .home-inner h1 {
+    font-size: 42px;
+  }
+
+  .home-inner p {
+    font-size: 16px;
+  }
+  /*work*/
+  .work-section {
+    padding: 0px 45px 0px 45px;
+  }
+
+  .work-title h1 {
+    font-size: 40px;
+  }
+  /*about*/
+  .about-section {
+    padding: 0px 45px 0px 45px;
+  }
+  .about-heading{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .home-heading {
+    padding: 0px 30px 0px 30px;
+  }
+
+  .home-inner h1 {
+    font-size: 42px;
+  }
+
+  .home-inner p {
+    font-size: 16px;
+  }
+  /*work*/
+  .work-section {
+    padding: 0px 30px 0px 30px;
+  }
+
+  .work-title h1 {
+    font-size: 38px;
+  }
+  /*about*/
+  .about-section {
+    padding: 0px 30px 0px 30px;
+  }
+  .about-heading{
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-heading {
+    padding: 0px 25px 0px 25px;
+  }
+
+  .home-inner h1 {
+    font-size: 40px;
+  }
+
+  .home-inner p {
+    font-size: 17px;
+  }
+  /*work*/
+  .work-section {
+    padding: 0px 25px 0px 25px;
+  }
+
+  .work-title h1 {
+    font-size: 35px;
+  }
+ /*about*/
+  .about-section {
+    padding: 0px 25px 0px 25px;
+  }
+  .about-heading{
+    font-size: 35px;
+  }
+
 }
