@@ -5,17 +5,18 @@ import Work from './components/work';
 import About from './components/about';
 import AboutWork from './components/aboutwork';
 import Footer from './components/footer';
+import AboutPage from './pages/AboutPage';
+
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Home />
+      <Home/>
       <Work/>
       <About/>
-      {/* <AboutWork/>
-      <Footer/> */}
-    
+      <AboutWork/>
+      <Footer/>
     </div>
   );
 }

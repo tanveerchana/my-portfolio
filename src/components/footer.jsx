@@ -5,12 +5,12 @@ export default function Footer() {
             {/* <h2 className="ftr-heading">Contact</h2> */}
             <div className='ftr-container'>
                 <div className="ftr-container-1">
-                    <h3>Let's build something great together?</h3>
+                    <h3>Let's build something great together ?</h3>
                     <button>Contact Me</button>
                 </div>
                 <div className="ftr-container-2">
                     <div className='container-2-heading'>
-                        <h3>Connect with me on social media</h3>
+                        <h3>Connect with me on social media platforms !</h3>
                     </div>
                     <div>
                         <ul className="ftr-list">
