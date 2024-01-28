@@ -1,4 +1,3 @@
-import '../app.css';
 import BgParticle from './particle';
 
 export default function Home() {
