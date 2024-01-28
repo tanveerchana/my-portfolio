@@ -152,8 +152,11 @@ body {
   color: aliceblue;
   border-radius: 12.5px;
   border: 2px solid #061423;
+  cursor: pointer;
 }
-
+.work-title button:hover{
+  box-shadow: 0 0 10px 1px #08192C;
+}
 
 /*About*/
 .about-section {
@@ -185,6 +188,10 @@ body {
   color: aliceblue;
   border-radius: 12.5px;
   border: 2px solid #061423;
+  cursor: pointer;
+}
+.about-mbtn button:hover{
+  box-shadow: 0 0 10px 1px #08192C;
 }
 
 /*About work section*/
@@ -265,6 +272,10 @@ body {
   color: aliceblue;
   border-radius: 12.5px;
   border: 2px solid #061423;
+  cursor: pointer;
+}
+.ftr-container-1 button:hover{
+  box-shadow: 0 0 10px 1px #08192C;
 }
 
 .ftr-container-2 {
@@ -291,6 +302,9 @@ body {
   font-size: 18px;
   font-weight: 300;
   padding: 0px 0px 0px 20px;
+}
+.ftr-links:hover{
+  color: #89c6ff;
 }
 
 .footer-copyright p {

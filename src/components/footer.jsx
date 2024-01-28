@@ -1,4 +1,5 @@
 import '../app.css';
+import { Link } from 'react-router-dom';
 export default function Footer() {
     return (
         <div className="footer">
@@ -6,7 +7,7 @@ export default function Footer() {
             <div className='ftr-container'>
                 <div className="ftr-container-1">
                     <h3>Let's build something great together ?</h3>
-                    <button>Contact Me</button>
+                    <Link to={"/contact"}><button>Contact Me</button></Link>
                 </div>
                 <div className="ftr-container-2">
                     <div className='container-2-heading'>
@@ -24,7 +25,7 @@ export default function Footer() {
                                 <a className="ftr-links" href="#">Resume</a>
                             </li>
                             <li>
-                                <a className="ftr-links" href="https://www.linkedin.com/in/tanveer-singh007/">LinkedIn</a>
+                                <a className="ftr-links" href="https://www.linkedin.com/in/tanveersingh007/">LinkedIn</a>
                             </li>
                         </ul>
                     </div>
