@@ -128,7 +128,7 @@ body {
   margin-bottom: 60px;
 }
 .work-video img{
-  object-fit:fill;
+  object-fit: cover;
   border-radius: 25px;
 }
 
