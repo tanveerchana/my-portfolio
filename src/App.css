@@ -124,9 +124,12 @@ body {
 .work-video {
   width: 100%;
   height: 85vh;
-  background-color: aliceblue;
-  border-radius: 20px;
+  background-color: transparent;
   margin-bottom: 60px;
+}
+.work-video img{
+  object-fit:fill;
+  border-radius: 25px;
 }
 
 .work-title {

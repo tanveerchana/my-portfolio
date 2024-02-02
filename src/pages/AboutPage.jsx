@@ -20,7 +20,7 @@ export default function AboutPage() {
                 <div className="second-div">
                     <div className="Long-image"></div>
                     <div className="more-abt-me">
-                        <div className="feul-div">
+                        <div className="fuel-div">
                             <h3>What Drives Me</h3>
                             <p>Every project I undertake is fueled by a deep-seated passion for creating dynamic web solutions. I believe in the power of clean code and user-centric design, consistently striving to exceed expectations. Whether it's front-end development, back-end optimization, or user experience design, I am committed to delivering excellence.</p>
                         </div>
